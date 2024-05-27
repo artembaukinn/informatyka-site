@@ -1,0 +1,326 @@
+/* features */
+
+.main-features{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+
+.main-title,
+.main-subtitle{
+    font-family: RobotoL;
+    margin-bottom: 0;
+}
+
+.main-title{
+    margin-top: 162px;
+    font-size: 62px;
+}
+
+.main-subtitle{
+margin-top: 27px;
+font-size: 20px;
+width: 40%;
+text-align: center;
+}
+
+.main-image{
+    display: flex;
+    margin-top: 80px;
+    font-family: RobotoM;
+    font-size: 20px;
+}
+
+.main-image ul{
+    padding: 0;
+    margin-top: -35px;
+}
+
+.main-image ul li{
+    list-style-type: none;
+    margin-top: 35px;
+}
+
+.main-li-header{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-family: RobotoM;
+}
+
+.main-li-footer{
+    display: inline-block;
+    margin-top: 20px;
+    width: 270px;
+    font-family: RobotoL;
+}
+
+
+.main-li-header img{
+    margin-right: 13px;
+}
+
+
+
+/* content */
+
+
+.content-title{
+    text-align: center;
+    font-family: RobotoL;
+    margin-top: 150px;
+    font-size: 45px;
+}
+
+.content-subtitle{
+    text-align: center;
+    justify-content: center;
+    font-family: RobotoL;
+    font-size: 20px;
+}
+
+
+.main-content{
+    color: white;
+    flex-direction: row;
+}
+
+.main-cards{
+    margin-top: 44px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-card{
+    height: 630px;
+    width: 475px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding-top: 40px;
+    padding-bottom: ;
+    padding-left: 90px;
+    padding-right:;
+
+}
+
+.main-card h1{
+    color: black;
+    font-family: RobotoM;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    flex: none;
+order: 0;
+flex-grow: 0;
+margin-left: -80px;
+margin-bottom: 20px;
+}
+
+.main-card h5{
+color: #5C5C5C;
+font-family: RobotoL;
+display: flex;
+flex-direction: row;
+padding: 10px;
+width: 288px;
+height: 92px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin-left: 90px;
+}
+
+.first-card{
+    display: block;
+    justify-content: center;
+    margin-right: 30px;
+    padding-left: 50px;
+}
+
+.card-button{
+    margin-left: 120px;
+    margin-top: 60px;
+    display: block;
+    margin-top: -40px;
+}
+
+.first-card-button{
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+/* Gallery */
+
+
+
+
+.gallery h1{
+    color: #fff;
+    font-family: RobotoL;
+    font-size: 45px;
+    margin: auto;
+    margin-top: 120px;
+    text-align: center;
+}
+
+
+.gallery h5{
+    color: #fff;
+    font-family: RobotoT;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.gallery-photos{
+    display: inline-block;
+    text-align: center;
+    flex-direction: row;
+    margin-right: 33px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.gallery-row-1{
+ display: flex ;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+ padding: 0;
+ gap: 33px;
+}
+
+.gallery-row-2{
+    display: flex ;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    gap: 33px;
+}
+
+.gallery-second-img{
+ width: 395px;
+height: 285px;
+}
+
+.first-img{
+    width: 235px;
+    height: 285px;
+    margin-right: 33px;
+    margin-bottom: 45px;
+
+}
+
+.gallery img{
+    border-radius: 12px;
+    margin-right: 33px;
+    margin-bottom: 45px;
+    width: 235px;
+    height: 285px;
+}
+.gallery-button{
+    width: 100px;
+    height: 45px;
+    padding: 10px;
+    margin-left: 540px;
+    margin-bottom: 150px;
+}
+
+
+
+
+/* PArtners */
+
+
+.partners h1,h5 {
+    color: #fff;
+    text-align: center;
+}
+
+.partners h1 {
+    font-family: RobotoL;
+    font-size: 45px;
+}
+
+.partners h5 {
+    font-family: RobotoT;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.partners-logo{
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.partners img{
+    
+}
+
+
+.partner-logo{
+    margin-right: 45px;
+}
+
+.logo-ibm{
+    margin: 0;
+}
+
+.partners-button{
+    width: 176px;
+    height: 52px;
+    padding: 10px 30px;
+    margin-left: 510px;
+    margin-bottom: 150px;
+}
+
+
+
+
+
+
+
+
+/* Testimonials */
+
+.testimonials h1{
+    color: #fff;
+    font-family: RobotoM;
+    font-weight: 500px;
+}
+
+.comment{
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.testimonial-name,
+.testimonial-job{
+    color: white;
+}
+
+.main-testimonials{
+    margin-top: 50px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.testimonial-title{
+    display: flex;
+}
+
+
+.first-a:hover{
+    background-color: green;
+}
